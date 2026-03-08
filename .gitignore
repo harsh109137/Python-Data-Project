@@ -1,0 +1,6 @@
+data/
+src/data_jobs.egg-info/
+*.ipynb_checkpoints
+*.parquet
+*.csv
+notebooks/
