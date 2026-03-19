@@ -17,7 +17,7 @@ dependencies = [
     "pandas",
     "matplotlib",
     "seaborn",
-    "numpy",
+    "ipykernel",
     "datasets",
     "pyarrow",
 ]

@@ -16,13 +16,12 @@ def clean_skills(df):
                                           if pd.notna(x) else x)
     return df
 
-#creating new columns for month and year of job_posted_date
-def add_month(df):
-    mod_data = df.copy()
-    mod_data['job_posted_month']=mod_data.job_posted_date.dt.month
-    return mod_data
+#creating new columns for month number and year from job_posted_date
 
-def add_year():
-    mod_data = clean_date()
-    mod_data['job_posted_year']=mod_data.job_posted_date.dt.year
-    return mod_data
+def add_month(given_df):
+    given_df['job_posted_month_no']=given_df.job_posted_date.dt.month
+    return given_df
+
+def add_year(given_df):
+    given_df['job_posted_year']=given_df.job_posted_date.dt.year
+    return given_df
