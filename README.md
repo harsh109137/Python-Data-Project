@@ -200,7 +200,7 @@ ax[-1].set_xlabel('Skill Percent')
 To understand how demand evolves over time, I analyzed the **monthly trend of key Data Analyst skills** in India. This reveals not just what’s important—but **when it’s most in demand** 📊  
 
 <p align="left">
-  <img src="_plots\4_skill_trend_monthly.png" width="100%">
+  <img src="_plots\4_skill_trend_monthly.png" width="80%">
 </p>
 
 #### 📊 **Monthly Skill Demand Insights**
@@ -222,7 +222,7 @@ While foundational skills like **SQL and Excel remain stable**, tools like **Pyt
 Let’s talk money 💼—this analysis compares how different **data roles are paid**, revealing clear patterns in earning potential.
 
 <p align="center">
-  <img src="_plots\5_boxplot_salary_distribution.png" width="100%" length="80%">
+  <img src="_plots\5_boxplot_salary_distribution.png" width="80%" >
 </p>
 
 * 🤖 **Machine Learning Engineers** top the chart with the **highest earning potential**, reaching up to ~$260k+, showing how valuable advanced specialization is
@@ -249,7 +249,7 @@ The scatterplot below maps:
 * 🎨 **Color** → Technology category
 
 <p align="left">
-  <img src="_plots\6_scatterplot_optimal_skills.png" width="100%">
+  <img src="_plots\6_scatterplot_optimal_skills.png" width="80%">
 </p>
 
 ```python
@@ -385,7 +385,6 @@ The data job market in India is **skill-driven and high-paying**, with clear dem
 
 By focusing on **strong fundamentals (SQL, Python, Excel)** and gradually moving into **BI tools and specialized skills**, you can position yourself for **better opportunities and higher salaries** 💼🚀
 
-🎯 **Bottom line:** Learn smart, not just more—and align your skills with market demand 😎
 
 
 
